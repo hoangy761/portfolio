@@ -3,16 +3,9 @@ import {
   experience,
   profile,
   research,
-  stack,
+  stackGroups,
   work,
 } from "@/data/cv";
-
-const allSkills = [
-  ...stack.primary,
-  ...stack.execution,
-  ...stack.domain,
-  ...stack.exposure,
-];
 
 export function TraditionalResume() {
   return (
@@ -129,9 +122,14 @@ export function TraditionalResume() {
 
         <section>
           <h2 className="resume-h2">Skills</h2>
-          <p className="mt-2 text-[0.88rem] leading-relaxed text-[#333]">
-            {allSkills.join(" · ")}
-          </p>
+          <ul className="mt-3 space-y-2.5 text-[0.88rem] leading-relaxed text-[#333]">
+            {stackGroups.map((group) => (
+              <li key={group.key}>
+                <span className="font-semibold text-[#111]">{group.title}:</span>{" "}
+                {group.items.join(", ")}
+              </li>
+            ))}
+          </ul>
         </section>
 
         <section>

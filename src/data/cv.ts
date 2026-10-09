@@ -142,11 +142,16 @@ export const experience = [
 ] as const;
 
 export const stack = {
-  primary: ["TypeScript", "NestJS", "Next.js", "Solidity"],
-  execution: ["ox (EVM)", "Jupiter Aggregator", "GMGN SDK"],
-  domain: ["DEX", "Lending", "PerpDEX", "LP hedging"],
-  exposure: ["Java", "Rust"],
+  languages: ["TypeScript", "Solidity", "Java", "Rust"],
+  integrate: ["NestJS", "Next.js", "ox (EVM)", "Jupiter Aggregator", "GMGN SDK"],
+  defi: ["DEX", "Lending", "PerpDEX", "LP hedging"],
 } as const;
+
+export const stackGroups = [
+  { key: "languages", title: "Languages", items: stack.languages },
+  { key: "integrate", title: "Integrate", items: stack.integrate },
+  { key: "defi", title: "DeFi experience", items: stack.defi },
+] as const;
 
 export const nav = [
   { label: "Work", href: "#work" },
