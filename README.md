@@ -1,4 +1,4 @@
-# 0xWhyZi — DeFi CV
+# 0xWhyZi | DeFi CV
 
 English portfolio CV for **Bùi Hoàng Ý** (`0xWhyZi`), built with Next.js App Router + Tailwind.
 

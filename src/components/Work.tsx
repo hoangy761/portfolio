@@ -11,7 +11,7 @@ export function Work() {
           </h2>
         </div>
         <p className="max-w-md text-sm text-muted md:text-right">
-          Engineering and ops first. Metrics are stated as-is — including strategies still iterating.
+          Engineering and ops first. Metrics are stated as-is, including strategies still iterating.
         </p>
       </div>
 

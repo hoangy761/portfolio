@@ -23,7 +23,7 @@ const ibmPlexMono = IBM_Plex_Mono({
 const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 
-const title = "0xWhyZi · Bùi Hoàng Ý — DeFi Fullstack Engineer";
+const title = "0xWhyZi · Bùi Hoàng Ý | DeFi Fullstack Engineer";
 const description =
   "Fullstack TypeScript engineer with DeFi skin-in-the-game since 2021. Wallet admin systems, perpetual trading bots (~$2M volume), and live cross-chain execution.";
 
@@ -60,12 +60,12 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "/",
     siteName: "0xWhyZi",
-    title: "0xWhyZi — DeFi Fullstack Engineer",
+    title: "0xWhyZi | DeFi Fullstack Engineer",
     description,
   },
   twitter: {
     card: "summary_large_image",
-    title: "0xWhyZi — DeFi Fullstack Engineer",
+    title: "0xWhyZi | DeFi Fullstack Engineer",
     description,
     creator: "@0xWhyZi",
   },

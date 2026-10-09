@@ -66,7 +66,7 @@ export function TraditionalResume() {
                 <div className="flex flex-col gap-0.5 sm:flex-row sm:items-baseline sm:justify-between">
                   <h3 className="text-[0.98rem] font-semibold">
                     {item.title}
-                    <span className="font-normal text-[#444]"> — {item.org}</span>
+                    <span className="font-normal text-[#444]">, {item.org}</span>
                   </h3>
                   <p className="shrink-0 text-[0.78rem] text-[#555]">{item.period}</p>
                 </div>
@@ -86,7 +86,7 @@ export function TraditionalResume() {
                 <div className="flex flex-col gap-0.5 sm:flex-row sm:items-baseline sm:justify-between">
                   <h3 className="text-[0.98rem] font-semibold">
                     {item.title}
-                    <span className="font-normal text-[#444]"> — {item.role}</span>
+                    <span className="font-normal text-[#444]">, {item.role}</span>
                   </h3>
                   <p className="shrink-0 text-[0.78rem] text-[#555]">{item.period}</p>
                 </div>
@@ -154,7 +154,7 @@ export function TraditionalResume() {
                 >
                   {item.title}
                 </a>
-                <span className="text-[#555]"> — {item.blurb}</span>
+                <span className="text-[#555]">. {item.blurb}</span>
               </li>
             ))}
           </ul>

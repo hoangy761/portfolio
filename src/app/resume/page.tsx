@@ -5,7 +5,7 @@ import { TraditionalResume } from "@/components/TraditionalResume";
 import { profile } from "@/data/cv";
 
 export const metadata: Metadata = {
-  title: `${profile.name} — Resume`,
+  title: `${profile.name} | Resume`,
   description: `Traditional resume for ${profile.name} (${profile.brand}), fullstack TypeScript / DeFi engineer.`,
 };
 
